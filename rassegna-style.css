@@ -1,0 +1,234 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+.metadata {
+    background-color: #f7f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.facsimile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.facsimile {
+    text-align: center;
+    margin: 10px 10px 400px 10px;
+}
+
+.facsimile img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transcription article {
+    margin-bottom: 2em;
+}
+
+
+
+/* Evidenziazione testo */
+.highlight-target {
+    position: relative;
+    display: inline-block;
+}
+
+/* Stile quando l'elemento è attivo (evidenziato) */
+.highlight-target.active::before {
+    content: '';
+    position: absolute;
+    width: 230px;
+    height: 10px;
+    left: -2px;
+    right: -2px;
+    top: -10px;
+    bottom: -2px;
+    background-color: #FFFACD;
+    /* Giallo chiaro */
+    border: 2px solid #FFD700;
+    /* Bordo dorato */
+    z-index: -1;
+    border-radius: 3px;
+}
+
+/* Animazione per attirare l'attenzione */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+    }
+}
+
+.highlight-target.active::before {
+    animation: pulse 2s infinite;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+
+.label {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.columns {
+    display: flex;
+    max-width: 100%;
+}
+
+
+.article-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 1 300px;
+    margin: 0 5px 0 5px;
+    max-width: 45%;
+    font-size: 9px;
+}
+
+.legend-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.legend-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.legend-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.legend-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#phenomenon-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.phenomenon-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.phenomenon-btn::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.phenomenon-btn[data-phenomenon="person"] {
+    background-color: #FFE5E5;
+    color: #D32F2F;
+}
+
+.phenomenon-btn[data-phenomenon="person"]::before {
+    background-color: #FFB3BA;
+}
+
+.phenomenon-btn[data-phenomenon="place"] {
+    background-color: #E8F5E9;
+    color: #388E3C;
+}
+
+.phenomenon-btn[data-phenomenon="place"]::before {
+    background-color: #BAFFC9;
+}
+
+.phenomenon-btn[data-phenomenon="role"] {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+.phenomenon-btn[data-phenomenon="role"]::before {
+    background-color: #BAE1FF;
+}
+
+.phenomenon-btn[data-phenomenon="organization"] {
+    background-color: #FFF9C4;
+    color: #FBC02D;
+}
+
+.phenomenon-btn[data-phenomenon="organization"]::before {
+    background-color: #FFFFBA;
+}
+
+.phenomenon-btn:hover {
+    filter: brightness(95%);
+}
+
+.phenomenon-btn.active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.phenomenon-btn.clicked {
+    transform: scale(0.95);
+}

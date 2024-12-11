@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="trasformazione.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xml:lang="it"
+      xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>
+            La Rassegna Settimanale, Volume 5, Fascicolo 106
+                        </title>
+                        <respStmt>
+                              <resp>Codifica TEI realizzata da:</resp>
+                              <name xml:id="ele_perk">Elena Perkoska</name>
+                        </respStmt>
+                        <sponsor>Università di Pisa</sponsor>
+                  </titleStmt>
+
+                  <publicationStmt>
+                        <publisher>Università di Pisa</publisher>
+                        <pubPlace>Pisa</pubPlace>
+                        <date>2024</date>
+                        <availability status="free">
+                              <p>L'edizione digitale è consultabile liberamente</p>
+                        </availability>
+                  </publicationStmt>
+
+                  <seriesStmt>
+                        <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
+                        <respStmt>
+                              <resp>coordinata dal professor</resp>
+                              <name>Angelo Mario Del Grosso</name>
+                        </respStmt>
+                  </seriesStmt>
+
+                  <notesStmt>
+                        <note>La digitalizzazione e l'indicizzazione della Rassegna settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti.</note>
+                        <note>La scansione digitale dell'intera rivista è consultabile sul sito: https://rassegnasettimanale.animi.it
+                        </note>
+                  </notesStmt>
+
+                  <sourceDesc>
+                        <biblStruct type="article">
+                              <analytic xml:id="art1">
+                                    <title level="a">La legge sull'istruzione pubblica</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="art2">
+                                    <title level="a">La economia nella spesa per l'acquisto delle vettovaglie</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="bibliografia1">
+                                    <author>
+                                          <persName>Domenico Caprile</persName>
+                                    </author>
+                                    <title level="m">Virtù educatrice, studi morali</title>
+                                    <date>1880</date>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="bibliografia2">
+                                    <author>
+                                          <persName>Cesare Quarenghi</persName>
+                                    </author>
+                                    <title level="m">Le Mura di Roma con una pianta direttiva alle cinte serviana ed aureliana ed alla città leonina</title>
+                                    <date>1880</date>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                    <title level="j">La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                                    <respStmt>
+                                          <resp>Fondata da</resp>
+                                          <name>Leopoldo Franchetti</name>
+                                          <name>Sydney Sonnino</name>
+                                    </respStmt>
+                                    <imprint>
+                                          <pubPlace>Roma</pubPlace>
+                                          <publisher>Tipografia Barbera</publisher>
+                                          <date when="11-01-1880">11 gennaio 1880</date>
+                                    </imprint>
+                                    <biblScope unit="volume">5</biblScope>
+                                    <biblScope unit="file">106</biblScope>
+                                    <biblScope unit="page">21,22,39,40,41</biblScope>
+                              </monogr>
+                        </biblStruct>
+                  </sourceDesc>
+            </fileDesc>
+
+            <encodingDesc>
+                  <projectDesc>
+                        <p>Il testo rispetta le linee guida della TEI ed è stato realizzato per il corso di Codifica Di Testi dell'<orgName>Università di Pisa</orgName>
+                        </p>
+                  </projectDesc>
+            </encodingDesc>
+      </teiHeader>
+
+      <facsimile>
+
+            <!--ARTICOLO 1 (PAGINA 1) -->
+            <surface xml:id="articolo1p1" n="21">
+
+                  <graphic url='Vol5-1880-1-S1-F106-2.jpg' width='2269.57576px' height='3349.57576px' />
+                  <zone xml:id="art1titolo" ulx="153" uly="548" lrx="1068" lry="599" />
+                  <zone xml:id="art1riga1" ulx="152" uly="611" lrx="1100" lry="665" />
+                  <zone xml:id="art1riga2" ulx="105" uly="659" lrx="1103" lry="704" />
+                  <zone xml:id="art1riga3" ulx="106" uly="707" lrx="1111" lry="747" />
+                  <zone xml:id="art1riga4" ulx="96" uly="752" lrx="1120" lry="788" />
+                  <zone xml:id="art1riga5" ulx="105" uly="799" lrx="1098" lry="833" />
+                  <zone xml:id="art1riga6" ulx="113" uly="841" lrx="1109" lry="873" />
+                  <zone xml:id="art1riga7" ulx="109" uly="880" lrx="1105" lry="914" />
+                  <zone xml:id="art1riga8" ulx="102" uly="918" lrx="1109" lry="957" />
+                  <zone xml:id="art1riga9" ulx="102" uly="960" lrx="1106" lry="999" />
+                  <zone xml:id="art1riga10" ulx="105" uly="1014" lrx="1106" lry="1043" />
+                  <zone xml:id="art1riga11" ulx="109" uly="1059" lrx="1097" lry="1087" />
+                  <zone xml:id="art1riga12" ulx="114" uly="1105" lrx="1111" lry="1133" />
+                  <zone xml:id="art1riga13" ulx="113" uly="1140" lrx="1105" lry="1175" />
+                  <zone xml:id="art1riga14" ulx="117" uly="1182" lrx="1100" lry="1223" />
+                  <zone xml:id="art1riga15" ulx="107" uly="1231" lrx="1092" lry="1263" />
+                  <zone xml:id="art1riga16" ulx="108" uly="1270" lrx="1091" lry="1303" />
+                  <zone xml:id="art1riga17" ulx="103" uly="1311" lrx="1110" lry="1347" />
+                  <zone xml:id="art1riga18" ulx="114" uly="1357" lrx="1112" lry="1385" />
+                  <zone xml:id="art1riga19" ulx="113" uly="1395" lrx="747" lry="1430" />
+                  <zone xml:id="art1riga20" ulx="162" uly="1440" lrx="1112" lry="1468" />
+                  <zone xml:id="art1riga21" ulx="111" uly="1486" lrx="1109" lry="1517" />
+                  <zone xml:id="art1riga22" ulx="110" uly="1519" lrx="1120" lry="1557" />
+                  <zone xml:id="art1riga23" ulx="118" uly="1573" lrx="1109" lry="1592" />
+                  <zone xml:id="art1riga24" ulx="109" uly="1606" lrx="1110" lry="1641" />
+                  <zone xml:id="art1riga25" ulx="110" uly="1660" lrx="1107" lry="1693" />
+                  <zone xml:id="art1riga26" ulx="114" uly="1700" lrx="1105" lry="1730" />
+                  <zone xml:id="art1riga27" ulx="104" uly="1741" lrx="1111" lry="1767" />
+                  <zone xml:id="art1riga28" ulx="106" uly="1778" lrx="1110" lry="1809" />
+                  <zone xml:id="art1riga29" ulx="114" uly="1822" lrx="1112" lry="1857" />
+                  <zone xml:id="art1riga30" ulx="108" uly="1865" lrx="1094" lry="1901" />
+                  <zone xml:id="art1riga31" ulx="108" uly="1909" lrx="1098" lry="1946" />
+                  <zone xml:id="art1riga32" ulx="111" uly="1957" lrx="1110" lry="1988" />
+                  <zone xml:id="art1riga33" ulx="108" uly="1994" lrx="1113" lry="2037" />
+                  <zone xml:id="art1riga34" ulx="106" uly="2041" lrx="1117" lry="2074" />
+                  <zone xml:id="art1riga35" ulx="110" uly="2078" lrx="1109" lry="2118" />
+                  <zone xml:id="art1riga36" ulx="114" uly="2126" lrx="1112" lry="2161" />
+                  <zone xml:id="art1riga37" ulx="117" uly="2172" lrx="1113" lry="2201" />
+                  <zone xml:id="art1riga38" ulx="108" uly="2213" lrx="1115" lry="2244" />
+                  <zone xml:id="art1riga39" ulx="113" uly="2256" lrx="1114" lry="2290" />
+                  <zone xml:id="art1riga40" ulx="114" uly="2301" lrx="1106" lry="2336" />
+                  <zone xml:id="art1riga41" ulx="108" uly="2339" lrx="1109" lry="2376" />
+                  <zone xml:id="art1riga42" ulx="111" uly="2387" lrx="1096" lry="2419" />
+                  <zone xml:id="art1riga43" ulx="113" uly="2428" lrx="1095" lry="2465" />
+                  <zone xml:id="art1riga44" ulx="115" uly="2474" lrx="1105" lry="2505" />
+                  <zone xml:id="art1riga45" ulx="110" uly="2508" lrx="1112" lry="2545" />
+                  <zone xml:id="art1riga46" ulx="116" uly="2560" lrx="1110" lry="2585" />
+                  <zone xml:id="art1riga47" ulx="115" uly="2604" lrx="1102" lry="2631" />
+                  <zone xml:id="art1riga48" ulx="113" uly="2635" lrx="1108" lry="2674" />
+                  <zone xml:id="art1riga49" ulx="114" uly="2685" lrx="1113" lry="2714" />
+                  <zone xml:id="art1riga50" ulx="119" uly="2728" lrx="1112" lry="2755" />
+                  <zone xml:id="art1riga51" ulx="116" uly="2761" lrx="1104" lry="2798" />
+                  <zone xml:id="art1riga52" ulx="116" uly="2809" lrx="1107" lry="2846" />
+                  <zone xml:id="art1riga53" ulx="125" uly="2856" lrx="1118" lry="2893" />
+                  <zone xml:id="art1riga54" ulx="124" uly="2906" lrx="1100" lry="2928" />
+                  <zone xml:id="art1riga55" ulx="117" uly="2944" lrx="1112" lry="2978" />
+                  <zone xml:id="art1riga56" ulx="110" uly="2982" lrx="1102" lry="3021" />
+                  <zone xml:id="art1riga57" ulx="119" uly="3030" lrx="1109" lry="3057" />
+                  <zone xml:id="art1riga58" ulx="119" uly="3071" lrx="1106" lry="3107" />
+                  <zone xml:id="art1riga59" ulx="1145" uly="538" lrx="2145" lry="572" />
+                  <zone xml:id="art1riga60" ulx="1146" uly="587" lrx="2081" lry="617" />
+                  <zone xml:id="art1riga61" ulx="1198" uly="623" lrx="2162" lry="661" />
+                  <zone xml:id="art1riga62" ulx="1147" uly="676" lrx="2152" lry="709" />
+                  <zone xml:id="art1riga63" ulx="1147" uly="718" lrx="2156" lry="748" />
+                  <zone xml:id="art1riga64" ulx="1152" uly="759" lrx="2148" lry="786" />
+                  <zone xml:id="art1riga65" ulx="1152" uly="805" lrx="2150" lry="837" />
+                  <zone xml:id="art1riga66" ulx="1156" uly="849" lrx="2151" lry="877" />
+                  <zone xml:id="art1riga67" ulx="1156" uly="892" lrx="2148" lry="917" />
+                  <zone xml:id="art1riga68" ulx="1152" uly="930" lrx="2144" lry="961" />
+                  <zone xml:id="art1riga69" ulx="1146" uly="972" lrx="1317" lry="1001" />
+                  <zone xml:id="art1riga70" ulx="1203" uly="1011" lrx="2151" lry="1045" />
+                  <zone xml:id="art1riga71" ulx="1157" uly="1059" lrx="2152" lry="1090" />
+                  <zone xml:id="art1riga72" ulx="1147" uly="1102" lrx="2147" lry="1132" />
+                  <zone xml:id="art1riga73" ulx="1151" uly="1148" lrx="2143" lry="1171" />
+                  <zone xml:id="art1riga74" ulx="1149" uly="1185" lrx="2144" lry="1224" />
+                  <zone xml:id="art1riga75" ulx="1147" uly="1232" lrx="2165" lry="1259" />
+                  <zone xml:id="art1riga76" ulx="1147" uly="1266" lrx="2153" lry="1304" />
+                  <zone xml:id="art1riga77" ulx="1153" uly="1309" lrx="1356" lry="1340" />
+                  <zone xml:id="art1riga78" ulx="1206" uly="1355" lrx="2152" lry="1387" />
+                  <zone xml:id="art1riga79" ulx="1155" uly="1396" lrx="2163" lry="1430" />
+                  <zone xml:id="art1riga80" ulx="1152" uly="1438" lrx="2154" lry="1473" />
+                  <zone xml:id="art1riga81" ulx="1155" uly="1485" lrx="2157" lry="1516" />
+                  <zone xml:id="art1riga82" ulx="1149" uly="1518" lrx="2152" lry="1558" />
+                  <zone xml:id="art1riga83" ulx="1154" uly="1572" lrx="2153" lry="1598" />
+                  <zone xml:id="art1riga84" ulx="1151" uly="1618" lrx="2151" lry="1654" />
+                  <zone xml:id="art1riga85" ulx="1153" uly="1660" lrx="2158" lry="1707" />
+                  <zone xml:id="art1riga86" ulx="1155" uly="1710" lrx="2155" lry="1743" />
+                  <zone xml:id="art1riga87" ulx="1157" uly="1741" lrx="2148" lry="1771" />
+                  <zone xml:id="art1riga88" ulx="1152" uly="1774" lrx="2153" lry="1810" />
+                  <zone xml:id="art1riga89" ulx="1161" uly="1821" lrx="2153" lry="1849" />
+                  <zone xml:id="art1riga90" ulx="1157" uly="1866" lrx="2158" lry="1894" />
+                  <zone xml:id="art1riga91" ulx="1156" uly="1907" lrx="2157" lry="1936" />
+                  <zone xml:id="art1riga92" ulx="1159" uly="1952" lrx="2158" lry="1983" />
+                  <zone xml:id="art1riga93" ulx="1154" uly="1998" lrx="2157" lry="2020" />
+                  <zone xml:id="art1riga94" ulx="1157" uly="2037" lrx="2163" lry="2070" />
+                  <zone xml:id="art1riga95" ulx="1158" uly="2079" lrx="2155" lry="2117" />
+                  <zone xml:id="art1riga96" ulx="1153" uly="2137" lrx="2152" lry="2157" />
+                  <zone xml:id="art1riga97" ulx="1153" uly="2160" lrx="2156" lry="2199" />
+                  <zone xml:id="art1riga98" ulx="1156" uly="2213" lrx="2158" lry="2237" />
+                  <zone xml:id="art1riga99" ulx="1154" uly="2245" lrx="2161" lry="2279" />
+                  <zone xml:id="art1riga100" ulx="1154" uly="2294" lrx="2156" lry="2334" />
+                  <zone xml:id="art1riga101" ulx="1152" uly="2343" lrx="2155" lry="2368" />
+                  <zone xml:id="art1riga102" ulx="1150" uly="2379" lrx="2150" lry="2409" />
+                  <zone xml:id="art1riga103" ulx="1152" uly="2425" lrx="2164" lry="2460" />
+                  <zone xml:id="art1riga104" ulx="1156" uly="2472" lrx="2157" lry="2499" />
+                  <zone xml:id="art1riga105" ulx="1162" uly="2516" lrx="2152" lry="2537" />
+                  <zone xml:id="art1riga106" ulx="1159" uly="2556" lrx="1631" lry="2574" />
+                  <zone xml:id="art1riga107" ulx="1214" uly="2599" lrx="2157" lry="2615" />
+                  <zone xml:id="art1riga108" ulx="1156" uly="2632" lrx="2155" lry="2671" />
+                  <zone xml:id="art1riga109" ulx="1159" uly="2678" lrx="2159" lry="2707" />
+                  <zone xml:id="art1riga110" ulx="1151" uly="2725" lrx="2161" lry="2743" />
+                  <zone xml:id="art1riga111" ulx="1152" uly="2769" lrx="2173" lry="2793" />
+                  <zone xml:id="art1riga112" ulx="1158" uly="2804" lrx="2164" lry="2837" />
+                  <zone xml:id="art1riga113" ulx="1152" uly="2848" lrx="2157" lry="2877" />
+                  <zone xml:id="art1riga114" ulx="1152" uly="2895" lrx="2167" lry="2914" />
+                  <zone xml:id="art1riga115" ulx="1159" uly="2931" lrx="2163" lry="2964" />
+                  <zone xml:id="art1riga116" ulx="1157" uly="2975" lrx="2159" lry="3009" />
+                  <zone xml:id="art1riga117" ulx="1158" uly="3020" lrx="2148" lry="3043" />
+                  <zone xml:id="art1riga118" ulx="1148" uly="3067" lrx="2167" lry="3093" />
+
+            </surface>
+
+            <!--ARTICOLO 1 (PAGINA 2) -->
+            <surface xml:id="articolo1p2" n="22">
+
+                  <graphic url='Vol5-1880-1-S1-F106-3.jpg' width='2245.57576px' height='3310.57576px' />
+                  <zone xml:id="art1riga119" ulx="121" uly="311" lrx="1118" lry="351" />
+                  <zone xml:id="art1riga120" ulx="121" uly="350" lrx="1120" lry="381" />
+                  <zone xml:id="art1riga121" ulx="123" uly="396" lrx="1117" lry="426" />
+                  <zone xml:id="art1riga122" ulx="113" uly="437" lrx="1120" lry="470" />
+                  <zone xml:id="art1riga123" ulx="120" uly="477" lrx="1112" lry="517" />
+                  <zone xml:id="art1riga124" ulx="118" uly="521" lrx="1121" lry="563" />
+                  <zone xml:id="art1riga125" ulx="126" uly="572" lrx="1117" lry="602" />
+                  <zone xml:id="art1riga126" ulx="120" uly="615" lrx="1114" lry="644" />
+                  <zone xml:id="art1riga127" ulx="119" uly="660" lrx="361" lry="694" />
+
+            </surface>
+
+
+
+
+
+            <!--ARTICOLO 2-->
+            <surface xml:id="articolo2" n="22">
+
+                  <graphic url='Vol5-1880-1-S1-F106-3.jpg' width='2245.57576px' height='3310.57576px' />
+                  <zone xml:id="art2titolo" ulx="231" uly="711" lrx="990" lry="789" />
+                  <zone xml:id="art2riga1" ulx="166" uly="792" lrx="1110" lry="845" />
+                  <zone xml:id="art2riga2" ulx="112" uly="845" lrx="1121" lry="885" />
+                  <zone xml:id="art2riga3" ulx="120" uly="891" lrx="1113" lry="924" />
+                  <zone xml:id="art2riga4" ulx="117" uly="934" lrx="1120" lry="966" />
+                  <zone xml:id="art2riga5" ulx="113" uly="973" lrx="1122" lry="1010" />
+                  <zone xml:id="art2riga6" ulx="120" uly="1012" lrx="1120" lry="1054" />
+                  <zone xml:id="art2riga7" ulx="113" uly="1066" lrx="1112" lry="1097" />
+                  <zone xml:id="art2riga8" ulx="121" uly="1107" lrx="1118" lry="1136" />
+                  <zone xml:id="art2riga9" ulx="120" uly="1145" lrx="1118" lry="1182" />
+                  <zone xml:id="art2riga10" ulx="117" uly="1193" lrx="1115" lry="1221" />
+                  <zone xml:id="art2riga11" ulx="125" uly="1236" lrx="1117" lry="1270" />
+                  <zone xml:id="art2riga12" ulx="118" uly="1276" lrx="1108" lry="1309" />
+                  <zone xml:id="art2riga13" ulx="121" uly="1316" lrx="1114" lry="1351" />
+                  <zone xml:id="art2riga14" ulx="110" uly="1360" lrx="1120" lry="1396" />
+                  <zone xml:id="art2riga15" ulx="116" uly="1408" lrx="1129" lry="1440" />
+                  <zone xml:id="art2riga16" ulx="111" uly="1443" lrx="1114" lry="1483" />
+                  <zone xml:id="art2riga17" ulx="113" uly="1488" lrx="1098" lry="1529" />
+                  <zone xml:id="art2riga18" ulx="119" uly="1537" lrx="1113" lry="1563" />
+                  <zone xml:id="art2riga19" ulx="121" uly="1573" lrx="1109" lry="1617" />
+                  <zone xml:id="art2riga20" ulx="118" uly="1627" lrx="590" lry="1656" />
+                  <zone xml:id="art2riga21" ulx="171" uly="1663" lrx="1109" lry="1700" />
+                  <zone xml:id="art2riga22" ulx="120" uly="1702" lrx="1113" lry="1738" />
+                  <zone xml:id="art2riga23" ulx="118" uly="1743" lrx="1118" lry="1782" />
+                  <zone xml:id="art2riga24" ulx="121" uly="1790" lrx="1112" lry="1818" />
+                  <zone xml:id="art2riga25" ulx="109" uly="1828" lrx="1121" lry="1866" />
+                  <zone xml:id="art2riga26" ulx="124" uly="1879" lrx="1122" lry="1905" />
+                  <zone xml:id="art2riga27" ulx="119" uly="1921" lrx="1118" lry="1952" />
+                  <zone xml:id="art2riga28" ulx="123" uly="1959" lrx="1110" lry="1990" />
+                  <zone xml:id="art2riga29" ulx="118" uly="2010" lrx="1108" lry="2033" />
+                  <zone xml:id="art2riga30" ulx="120" uly="2048" lrx="1100" lry="2078" />
+                  <zone xml:id="art2riga31" ulx="112" uly="2085" lrx="1114" lry="2124" />
+                  <zone xml:id="art2riga32" ulx="103" uly="2135" lrx="1124" lry="2163" />
+                  <zone xml:id="art2riga33" ulx="121" uly="2181" lrx="1117" lry="2214" />
+                  <zone xml:id="art2riga34" ulx="120" uly="2227" lrx="535" lry="2252" />
+                  <zone xml:id="art2riga35" ulx="179" uly="2263" lrx="1101" lry="2292" />
+                  <zone xml:id="art2riga36" ulx="113" uly="2303" lrx="1110" lry="2335" />
+                  <zone xml:id="art2riga37" ulx="112" uly="2344" lrx="1113" lry="2370" />
+                  <zone xml:id="art2riga38" ulx="115" uly="2384" lrx="1115" lry="2418" />
+                  <zone xml:id="art2riga39" ulx="117" uly="2429" lrx="1117" lry="2462" />
+                  <zone xml:id="art2riga40" ulx="117" uly="2471" lrx="783" lry="2507" />
+                  <zone xml:id="art2riga41" ulx="164" uly="2516" lrx="1109" lry="2551" />
+                  <zone xml:id="art2riga42" ulx="118" uly="2558" lrx="1109" lry="2590" />
+                  <zone xml:id="art2riga43" ulx="115" uly="2605" lrx="1106" lry="2634" />
+                  <zone xml:id="art2riga44" ulx="118" uly="2643" lrx="1109" lry="2676" />
+                  <zone xml:id="art2riga45" ulx="118" uly="2684" lrx="1114" lry="2718" />
+                  <zone xml:id="art2riga46" ulx="121" uly="2731" lrx="1110" lry="2766" />
+                  <zone xml:id="art2riga47" ulx="121" uly="2770" lrx="1106" lry="2805" />
+                  <zone xml:id="art2riga48" ulx="118" uly="2815" lrx="1099" lry="2848" />
+                  <zone xml:id="art2riga49" ulx="123" uly="2860" lrx="1114" lry="2898" />
+                  <zone xml:id="art2riga50" ulx="119" uly="2903" lrx="1112" lry="2930" />
+                  <zone xml:id="art2riga51" ulx="123" uly="2942" lrx="1114" lry="2973" />
+                  <zone xml:id="art2riga52" ulx="118" uly="2979" lrx="1108" lry="3017" />
+                  <zone xml:id="art2riga53" ulx="117" uly="3027" lrx="1102" lry="3058" />
+                  <zone xml:id="art2riga54" ulx="120" uly="3067" lrx="1107" lry="3097" />
+                  <zone xml:id="art2riga55" ulx="119" uly="3103" lrx="1109" lry="3140" />
+                  <zone xml:id="art2riga56" ulx="1163" uly="292" lrx="2151" lry="320" />
+                  <zone xml:id="art2riga57" ulx="1159" uly="338" lrx="2159" lry="366" />
+                  <zone xml:id="art2riga58" ulx="1166" uly="378" lrx="2156" lry="405" />
+                  <zone xml:id="art2riga59" ulx="1166" uly="418" lrx="2168" lry="448" />
+                  <zone xml:id="art2riga60" ulx="1159" uly="463" lrx="2173" lry="496" />
+                  <zone xml:id="art2riga61" ulx="1161" uly="511" lrx="2163" lry="541" />
+                  <zone xml:id="art2riga62" ulx="1162" uly="555" lrx="1805" lry="581" />
+                  <zone xml:id="art2riga63" ulx="1211" uly="590" lrx="2174" lry="611" />
+                  <zone xml:id="art2riga64" ulx="1169" uly="628" lrx="2160" lry="667" />
+                  <zone xml:id="art2riga65" ulx="1176" uly="676" lrx="2161" lry="707" />
+                  <zone xml:id="art2riga66" ulx="1167" uly="723" lrx="2157" lry="753" />
+                  <zone xml:id="art2riga67" ulx="1155" uly="758" lrx="2160" lry="798" />
+                  <zone xml:id="art2riga68" ulx="1154" uly="815" lrx="2157" lry="833" />
+                  <zone xml:id="art2riga69" ulx="1161" uly="847" lrx="2166" lry="879" />
+                  <zone xml:id="art2riga70" ulx="1160" uly="894" lrx="2163" lry="925" />
+                  <zone xml:id="art2riga71" ulx="1158" uly="933" lrx="2166" lry="961" />
+                  <zone xml:id="art2riga72" ulx="1164" uly="976" lrx="2158" lry="1006" />
+                  <zone xml:id="art2riga73" ulx="1163" uly="1021" lrx="2165" lry="1048" />
+                  <zone xml:id="art2riga74" ulx="1161" uly="1059" lrx="2155" lry="1097" />
+                  <zone xml:id="art2riga75" ulx="1164" uly="1100" lrx="2164" lry="1146" />
+                  <zone xml:id="art2riga76" ulx="1166" uly="1154" lrx="2164" lry="1179" />
+                  <zone xml:id="art2riga77" ulx="1164" uly="1200" lrx="2159" lry="1226" />
+                  <zone xml:id="art2riga78" ulx="1170" uly="1238" lrx="2160" lry="1265" />
+                  <zone xml:id="art2riga79" ulx="1171" uly="1272" lrx="2165" lry="1303" />
+                  <zone xml:id="art2riga80" ulx="1163" uly="1314" lrx="2168" lry="1358" />
+                  <zone xml:id="art2riga81" ulx="1162" uly="1365" lrx="2159" lry="1397" />
+                  <zone xml:id="art2riga82" ulx="1164" uly="1406" lrx="1651" lry="1441" />
+                  <zone xml:id="art2riga83" ulx="1219" uly="1450" lrx="2158" lry="1481" />
+                  <zone xml:id="art2riga84" ulx="1163" uly="1494" lrx="2157" lry="1521" />
+                  <zone xml:id="art2riga85" ulx="1168" uly="1534" lrx="2153" lry="1573" />
+                  <zone xml:id="art2riga86" ulx="1163" uly="1576" lrx="2159" lry="1612" />
+                  <zone xml:id="art2riga87" ulx="1156" uly="1623" lrx="2155" lry="1656" />
+                  <zone xml:id="art2riga88" ulx="1167" uly="1668" lrx="2164" lry="1696" />
+                  <zone xml:id="art2riga89" ulx="1160" uly="1712" lrx="2155" lry="1740" />
+                  <zone xml:id="art2riga90" ulx="1159" uly="1755" lrx="2158" lry="1778" />
+                  <zone xml:id="art2riga91" ulx="1156" uly="1791" lrx="2164" lry="1830" />
+                  <zone xml:id="art2riga92" ulx="1158" uly="1844" lrx="2120" lry="1868" />
+
+
+            </surface>
+
+            <!--BIBLIOGRAFIA 1-->
+            <surface xml:id="bibl1" n="39">
+
+                  <graphic url='archeologia.jpg' width='1230.347108px' height='1699.347108px' />
+                  <zone xml:id="bibl1titolo" ulx="124" uly="1065" lrx="624" lry="1128" />
+                  <zone xml:id="bibl1riga1" ulx="150" uly="1134" lrx="627" lry="1161" />
+                  <zone xml:id="bibl1riga2" ulx="127" uly="1161" lrx="624" lry="1183" />
+                  <zone xml:id="bibl1riga3" ulx="122" uly="1183" lrx="621" lry="1202" />
+                  <zone xml:id="bibl1riga4" ulx="124" uly="1207" lrx="619" lry="1223" />
+                  <zone xml:id="bibl1riga5" ulx="127" uly="1225" lrx="624" lry="1246" />
+                  <zone xml:id="bibl1riga6" ulx="128" uly="1248" lrx="619" lry="1264" />
+                  <zone xml:id="bibl1riga7" ulx="129" uly="1269" lrx="625" lry="1287" />
+                  <zone xml:id="bibl1riga8" ulx="129" uly="1289" lrx="619" lry="1305" />
+                  <zone xml:id="bibl1riga9" ulx="129" uly="1311" lrx="570" lry="1329" />
+                  <zone xml:id="bibl1riga10" ulx="153" uly="1335" lrx="621" lry="1346" />
+                  <zone xml:id="bibl1riga11" ulx="130" uly="1356" lrx="624" lry="1374" />
+                  <zone xml:id="bibl1riga12" ulx="129" uly="1380" lrx="620" lry="1394" />
+                  <zone xml:id="bibl1riga13" ulx="131" uly="1399" lrx="622" lry="1415" />
+                  <zone xml:id="bibl1riga14" ulx="127" uly="1420" lrx="625" lry="1439" />
+                  <zone xml:id="bibl1riga15" ulx="125" uly="1443" lrx="621" lry="1460" />
+                  <zone xml:id="bibl1riga16" ulx="125" uly="1464" lrx="624" lry="1477" />
+                  <zone xml:id="bibl1riga17" ulx="128" uly="1476" lrx="624" lry="1486" />
+                  <zone xml:id="bibl1riga18" ulx="127" uly="1492" lrx="431" lry="1505" />
+                  <zone xml:id="bibl1riga19" ulx="155" uly="1512" lrx="623" lry="1527" />
+                  <zone xml:id="bibl1riga20" ulx="130" uly="1537" lrx="619" lry="1554" />
+                  <zone xml:id="bibl1riga21" ulx="651" uly="118" lrx="1150" lry="136" />
+                  <zone xml:id="bibl1riga22" ulx="653" uly="144" lrx="1148" lry="161" />
+                  <zone xml:id="bibl1riga23" ulx="653" uly="166" lrx="1145" lry="178" />
+                  <zone xml:id="bibl1riga24" ulx="652" uly="183" lrx="1146" lry="199" />
+                  <zone xml:id="bibl1riga25" ulx="678" uly="205" lrx="1151" lry="223" />
+                  <zone xml:id="bibl1riga26" ulx="653" uly="222" lrx="1147" lry="247" />
+                  <zone xml:id="bibl1riga27" ulx="653" uly="250" lrx="1148" lry="264" />
+                  <zone xml:id="bibl1riga28" ulx="649" uly="269" lrx="1150" lry="286" />
+                  <zone xml:id="bibl1riga29" ulx="656" uly="294" lrx="1154" lry="308" />
+                  <zone xml:id="bibl1riga30" ulx="648" uly="315" lrx="1039" lry="327" />
+                  <zone xml:id="bibl1riga31" ulx="679" uly="337" lrx="1150" lry="348" />
+                  <zone xml:id="bibl1riga32" ulx="654" uly="357" lrx="1152" lry="371" />
+                  <zone xml:id="bibl1riga33" ulx="652" uly="381" lrx="762" lry="393" />
+                  <zone xml:id="bibl1riga34" ulx="677" uly="397" lrx="1152" lry="413" />
+                  <zone xml:id="bibl1riga35" ulx="653" uly="419" lrx="1147" lry="437" />
+                  <zone xml:id="bibl1riga36" ulx="649" uly="445" lrx="1150" lry="458" />
+                  <zone xml:id="bibl1riga37" ulx="655" uly="463" lrx="1145" lry="478" />
+                  <zone xml:id="bibl1riga38" ulx="649" uly="485" lrx="1150" lry="501" />
+                  <zone xml:id="bibl1riga39" ulx="652" uly="509" lrx="1147" lry="521" />
+                  <zone xml:id="bibl1riga40" ulx="650" uly="526" lrx="1152" lry="540" />
+                  <zone xml:id="bibl1riga41" ulx="654" uly="549" lrx="1144" lry="563" />
+                  <zone xml:id="bibl1riga42" ulx="656" uly="573" lrx="1144" lry="586" />
+                  <zone xml:id="bibl1riga43" ulx="654" uly="593" lrx="1146" lry="610" />
+                  <zone xml:id="bibl1riga44" ulx="653" uly="618" lrx="1147" lry="629" />
+                  <zone xml:id="bibl1riga45" ulx="652" uly="638" lrx="1143" lry="649" />
+                  <zone xml:id="bibl1riga46" ulx="654" uly="661" lrx="1147" lry="672" />
+                  <zone xml:id="bibl1riga47" ulx="652" uly="683" lrx="1147" lry="690" />
+                  <zone xml:id="bibl1riga48" ulx="681" uly="704" lrx="1152" lry="717" />
+                  <zone xml:id="bibl1riga49" ulx="650" uly="723" lrx="1150" lry="740" />
+                  <zone xml:id="bibl1riga50" ulx="652" uly="747" lrx="1147" lry="761" />
+                  <zone xml:id="bibl1riga51" ulx="649" uly="765" lrx="1144" lry="780" />
+                  <zone xml:id="bibl1riga52" ulx="652" uly="789" lrx="1147" lry="802" />
+                  <zone xml:id="bibl1riga53" ulx="653" uly="808" lrx="1147" lry="825" />
+                  <zone xml:id="bibl1riga54" ulx="652" uly="832" lrx="1146" lry="844" />
+                  <zone xml:id="bibl1riga55" ulx="650" uly="854" lrx="1152" lry="862" />
+                  <zone xml:id="bibl1riga56" ulx="655" uly="869" lrx="1155" lry="886" />
+                  <zone xml:id="bibl1riga57" ulx="650" uly="898" lrx="773" lry="908" />
+                  <zone xml:id="bibl1riga58" ulx="678" uly="916" lrx="1147" lry="927" />
+                  <zone xml:id="bibl1riga59" ulx="649" uly="940" lrx="1150" lry="949" />
+                  <zone xml:id="bibl1riga60" ulx="648" uly="966" lrx="1147" lry="972" />
+                  <zone xml:id="bibl1riga61" ulx="648" uly="984" lrx="1069" lry="993" />
+
+
+
+            </surface>
+            <!--BIBLIOGRAFIA 2-->
+            <surface xml:id="bibl2" n="40">
+
+                  <graphic url='educazione.jpg' width='1162.347108px' height='1677.347108px' />
+                  <zone xml:id="bibl2titolo" ulx="77" uly="438" lrx="581" lry="479" />
+                  <zone xml:id="bibl2riga1" ulx="106" uly="490" lrx="577" lry="505" />
+                  <zone xml:id="bibl2riga2" ulx="77" uly="514" lrx="572" lry="528" />
+                  <zone xml:id="bibl2riga3" ulx="80" uly="532" lrx="573" lry="548" />
+                  <zone xml:id="bibl2riga4" ulx="85" uly="552" lrx="579" lry="575" />
+                  <zone xml:id="bibl2riga5" ulx="82" uly="578" lrx="577" lry="593" />
+                  <zone xml:id="bibl2riga6" ulx="81" uly="596" lrx="586" lry="617" />
+                  <zone xml:id="bibl2riga7" ulx="76" uly="623" lrx="584" lry="634" />
+                  <zone xml:id="bibl2riga8" ulx="85" uly="638" lrx="581" lry="654" />
+                  <zone xml:id="bibl2riga9" ulx="80" uly="664" lrx="577" lry="676" />
+                  <zone xml:id="bibl2riga10" ulx="81" uly="684" lrx="259" lry="699" />
+                  <zone xml:id="bibl2riga11" ulx="105" uly="699" lrx="576" lry="720" />
+                  <zone xml:id="bibl2riga12" ulx="84" uly="724" lrx="579" lry="741" />
+                  <zone xml:id="bibl2riga13" ulx="78" uly="747" lrx="576" lry="761" />
+                  <zone xml:id="bibl2riga14" ulx="85" uly="773" lrx="574" lry="787" />
+                  <zone xml:id="bibl2riga15" ulx="80" uly="794" lrx="581" lry="803" />
+                  <zone xml:id="bibl2riga16" ulx="83" uly="811" lrx="581" lry="827" />
+                  <zone xml:id="bibl2riga17" ulx="81" uly="834" lrx="581" lry="852" />
+                  <zone xml:id="bibl2riga18" ulx="79" uly="858" lrx="577" lry="870" />
+                  <zone xml:id="bibl2riga19" ulx="84" uly="880" lrx="581" lry="894" />
+                  <zone xml:id="bibl2riga20" ulx="78" uly="903" lrx="578" lry="912" />
+                  <zone xml:id="bibl2riga21" ulx="82" uly="926" lrx="575" lry="933" />
+                  <zone xml:id="bibl2riga22" ulx="82" uly="947" lrx="576" lry="959" />
+                  <zone xml:id="bibl2riga23" ulx="83" uly="965" lrx="581" lry="979" />
+                  <zone xml:id="bibl2riga24" ulx="81" uly="989" lrx="576" lry="998" />
+                  <zone xml:id="bibl2riga25" ulx="81" uly="1006" lrx="581" lry="1018" />
+                  <zone xml:id="bibl2riga26" ulx="83" uly="1026" lrx="579" lry="1042" />
+                  <zone xml:id="bibl2riga27" ulx="80" uly="1049" lrx="580" lry="1064" />
+                  <zone xml:id="bibl2riga28" ulx="82" uly="1076" lrx="584" lry="1088" />
+                  <zone xml:id="bibl2riga29" ulx="83" uly="1101" lrx="576" lry="1104" />
+                  <zone xml:id="bibl2riga30" ulx="84" uly="1109" lrx="576" lry="1130" />
+                  <zone xml:id="bibl2riga31" ulx="83" uly="1136" lrx="571" lry="1149" />
+                  <zone xml:id="bibl2riga32" ulx="81" uly="1156" lrx="576" lry="1170" />
+                  <zone xml:id="bibl2riga33" ulx="79" uly="1177" lrx="576" lry="1195" />
+                  <zone xml:id="bibl2riga34" ulx="84" uly="1202" lrx="576" lry="1216" />
+                  <zone xml:id="bibl2riga35" ulx="86" uly="1224" lrx="580" lry="1233" />
+                  <zone xml:id="bibl2riga36" ulx="83" uly="1240" lrx="577" lry="1252" />
+                  <zone xml:id="bibl2riga37" ulx="86" uly="1260" lrx="580" lry="1279" />
+                  <zone xml:id="bibl2riga38" ulx="84" uly="1286" lrx="580" lry="1299" />
+                  <zone xml:id="bibl2riga39" ulx="81" uly="1308" lrx="578" lry="1318" />
+                  <zone xml:id="bibl2riga40" ulx="83" uly="1333" lrx="584" lry="1342" />
+                  <zone xml:id="bibl2riga41" ulx="86" uly="1353" lrx="571" lry="1370" />
+                  <zone xml:id="bibl2riga42" ulx="88" uly="1374" lrx="582" lry="1384" />
+                  <zone xml:id="bibl2riga43" ulx="92" uly="1390" lrx="581" lry="1408" />
+                  <zone xml:id="bibl2riga44" ulx="86" uly="1412" lrx="588" lry="1429" />
+                  <zone xml:id="bibl2riga45" ulx="86" uly="1437" lrx="586" lry="1449" />
+                  <zone xml:id="bibl2riga46" ulx="89" uly="1457" lrx="586" lry="1472" />
+                  <zone xml:id="bibl2riga47" ulx="111" uly="1475" lrx="586" lry="1489" />
+                  <zone xml:id="bibl2riga48" ulx="85" uly="1499" lrx="581" lry="1510" />
+                  <zone xml:id="bibl2riga49" ulx="87" uly="1516" lrx="586" lry="1533" />
+                  <zone xml:id="bibl2riga50" ulx="598" uly="107" lrx="1091" lry="122" />
+                  <zone xml:id="bibl2riga51" ulx="595" uly="130" lrx="1100" lry="145" />
+                  <zone xml:id="bibl2riga52" ulx="597" uly="152" lrx="1100" lry="162" />
+                  <zone xml:id="bibl2riga53" ulx="625" uly="172" lrx="1101" lry="191" />
+                  <zone xml:id="bibl2riga54" ulx="600" uly="190" lrx="1103" lry="207" />
+                  <zone xml:id="bibl2riga55" ulx="598" uly="217" lrx="1098" lry="228" />
+                  <zone xml:id="bibl2riga56" ulx="596" uly="239" lrx="1100" lry="247" />
+                  <zone xml:id="bibl2riga57" ulx="600" uly="258" lrx="1095" lry="273" />
+                  <zone xml:id="bibl2riga58" ulx="600" uly="276" lrx="1095" lry="295" />
+                  <zone xml:id="bibl2riga59" ulx="598" uly="301" lrx="1098" lry="313" />
+                  <zone xml:id="bibl2riga60" ulx="600" uly="324" lrx="1095" lry="338" />
+                  <zone xml:id="bibl2riga61" ulx="598" uly="344" lrx="1104" lry="360" />
+                  <zone xml:id="bibl2riga62" ulx="595" uly="366" lrx="872" lry="383" />
+
+
+            </surface>
+
+            <surface xml:id="notizie" n="41">
+                  <!-- NOTIZIA 1 -->
+                  <graphic url='notizie.jpg' width='1168.27272px' height='1688.27272px' />
+                  <zone xml:id="notizia1riga1" ulx="72" uly="168" lrx="562" lry="186" />
+                  <zone xml:id="notizia1riga2" ulx="49" uly="193" lrx="562" lry="208" />
+                  <zone xml:id="notizia1riga3" ulx="51" uly="216" lrx="412" lry="224" />
+                  <zone xml:id="notizia1riga4" ulx="76" uly="226" lrx="559" lry="247" />
+                  <zone xml:id="notizia1riga5" ulx="46" uly="246" lrx="561" lry="266" />
+                  <zone xml:id="notizia1riga6" ulx="45" uly="271" lrx="561" lry="286" />
+                  <zone xml:id="notizia1riga7" ulx="48" uly="290" lrx="281" lry="303" />
+                  <zone xml:id="notizia1riga8" ulx="101" uly="307" lrx="559" lry="321" />
+                  <zone xml:id="notizia1riga9" ulx="52" uly="325" lrx="561" lry="346" />
+                  <zone xml:id="notizia1riga10" ulx="51" uly="350" lrx="558" lry="361" />
+                  <zone xml:id="notizia1riga11" ulx="49" uly="366" lrx="552" lry="382" />
+                  <zone xml:id="notizia1riga12" ulx="52" uly="386" lrx="563" lry="399" />
+                  <zone xml:id="notizia1riga13" ulx="51" uly="403" lrx="559" lry="422" />
+                  <zone xml:id="notizia1riga14" ulx="53" uly="429" lrx="558" lry="437" />
+                  <zone xml:id="notizia1riga15" ulx="52" uly="442" lrx="562" lry="463" />
+                  <zone xml:id="notizia1riga16" ulx="52" uly="464" lrx="374" lry="482" />
+
+                  <!-- NOTIZIA 2 -->
+
+
+                  <zone xml:id="notizia2riga1" ulx="78" uly="504" lrx="561" lry="520" />
+                  <zone xml:id="notizia2riga2" ulx="57" uly="521" lrx="503" lry="542" />
+                  <zone xml:id="notizia2riga3" ulx="79" uly="546" lrx="559" lry="558" />
+                  <zone xml:id="notizia2riga4" ulx="55" uly="565" lrx="565" lry="579" />
+                  <zone xml:id="notizia2riga5" ulx="52" uly="584" lrx="561" lry="602" />
+                  <zone xml:id="notizia2riga6" ulx="52" uly="606" lrx="561" lry="618" />
+                  <zone xml:id="notizia2riga7" ulx="52" uly="622" lrx="402" lry="640" />
+                  <zone xml:id="notizia2riga8" ulx="80" uly="644" lrx="561" lry="659" />
+                  <zone xml:id="notizia2riga9" ulx="53" uly="661" lrx="559" lry="674" />
+                  <zone xml:id="notizia2riga10" ulx="53" uly="682" lrx="315" lry="700" />
+
+
+            </surface>
+
+      </facsimile>
+
+      <text>
+            <body>
+                  <div type="journal" org="composite">
+
+                        <!-- ARTICOLO 1 -->
+                        <div type="article" n="1" xml:lang="it">
+                              <pb n="1" facs="#articolo1" />
+                              <cb n="1"/>
+                              <head rend="uppercase">
+                                    <lb facs="#art1titolo"/>
+La legge sull'istruzione pubblica
+                              </head>
+                              <ab>
+E appena passato qualche mese, che tutto il corpo insegnante
+                                    <lb facs="#art1riga2"/>
+e, quello che è più, anche la stampa erano unanimi
+                                    <lb facs="#art1riga3"/>
+nel dichiarare, che il pubblico insegnamento correva
+                                    <lb facs="#art1riga4"/>
+fra noi un gravissimo pericolo. Alcune poche disposizioni
+                                    <lb facs="#art1riga5"/>
+assai utili alle scuole secondario, — lo solo elio riuscivano
+                                    <lb facs="#art1riga6"/>
+a mantenere ancora qualche ordine, a dare qualche debole
+                                    <lb facs="#art1riga7"/>
+efficacia all'insegnamento classico, — che in <date>dieci anni</date> di
+                                    <lb facs="#art1riga8"/>
+sforzi continui erano state finalmente, non solo adottate dal
+                                    <lb facs="#art1riga9"/>
+                                    <orgName>Ministero</orgName>, ma accettate dal paese e riconosciute da tutti
+                                    <lb facs="#art1riga10"/>
+necessarie, indispensabili, stavano per essere abolite dal
+
+                                    <lb facs="#art1riga11"/>
+ministro <persName>Perez</persName>, nonostante V opposizione del corpo insegnante,
+                                    <lb facs="#art1riga12"/>
+dell'amministrazione e del <orgName>Consiglio di Pubblica
+                                    <lb facs="#art1riga13"/>
+Istruzione</orgName>, che egli non aveva neppure consultato. A far
+                              <lb facs="#art1riga14"/>
+tutto questo, si diceva, sarebbe bastato un semplice decreto,
+                              <lb facs="#art1riga15"/>
+e forse anche una circolare del <roleName>Ministro</roleName>. Il pericolo fu scongiurato
+                              <lb facs="#art1riga16"/>
+solo dalla crisi ministeriale, seguita per una questione
+                              <lb facs="#art1riga17"/>
+finanziaria. Senza di ciò l'operazione sarebbe stata
+                              <lb facs="#art1riga18"/>
+compiuta, e gli sforzi fatti in dieci anni a vantaggio delle
+                              <lb facs="#art1riga19"/>
+scuole sarebbero a quest'ora perduti.
+                              <lb facs="#art1riga20"/>
+Come dunque è così facile fare e disfare ? Hanno davvero
+                              <lb facs="#art1riga21"/>
+le nostre scuole, tutto il nostro BÌ8teraa scolastico un
+                              <lb facs="#art1riga22"/>
+fondamento così debole, che si possano con un decreto o
+                              <lb facs="#art1riga23"/>
+una circolare alterare sostanzialmente a dispetto di tutti ?
+                              <lb facs="#art1riga24"/>
+La questione ci pare che meriti qualche attenzione, perchè il
+                              <lb facs="#art1riga25"/>
+pericolo passato oggi può ricomparire domani. Il fatto è che
+                              <lb facs="#art1riga26"/>
+' a forza di leggi, di regolamenti, di circolari e di mutamenti
+                              <lb facs="#art1riga27"/>
+continui noi siamo arrivati a non aver più alcuna stabilità, e
+                              <lb facs="#art1riga28"/>
+tutto dipende dall'amministrazione e dal capriccio del <orgName>Ministro</orgName>.
+                              <lb facs="#art1riga29"/>
+Vi sono esempi di paesi i quali, anche con una legge poco
+                              <lb facs="#art1riga30"/>
+chiara e poco determinata, vanno regolarmente innanzi.
+                              <lb facs="#art1riga31"/>
+Ma questi sono paesi nei quali hanno gran forza o sono
+                              <lb facs="#art1riga32"/>
+molto rispettate le consuetudini, il che non segue fra noi.
+                              <lb facs="#art1riga33"/>
+0 sono paesi nei quali in mancanza di buone leggi e di
+                              <lb facs="#art1riga34"/>
+buoni regolamenti, si trovano autorità costituite, che serbano
+                              <lb facs="#art1riga35"/>
+inalterate le tradizioni scolastiche, nò le mutano
+                              <lb facs="#art1riga36"/>
+senza molto discutere e molto ponderare. E neppur questo
+                              <lb facs="#art1riga37"/>
+segue fra noi. Il <orgName>Consiglio Superiore</orgName> dovrebbe serbare le
+                              <lb facs="#art1riga38"/>
+buone tradizioni e qualche volta vi ò riuscito, frenando i
+                              <lb facs="#art1riga39"/>
+                              <orgName>Ministri</orgName>, salvandoli dal discendere quella china su cui li
+                              <lb facs="#art1riga40"/>
+, spingeva l'onda politica e il desiderio di male intesa popolarità.
+                              <lb facs="#art1riga41"/>
+Ma questo <orgName>Consiglio</orgName> è ora ogni giorno attaccato
+                              <lb facs="#art1riga42"/>
+nella <orgName>Camera</orgName> e fuori, ed il <orgName>Ministro</orgName> lo interroga o no, secondo
+                              <lb facs="#art1riga43"/>
+che gli piace. Sebbene costituito per leggo e nominato
+                              <lb facs="#art1riga44"/>
+anche nello <title>Statuto fondamentale</title>, esso fu una volta
+                              <lb facs="#art1riga45"/>
+disfatto con un decreto, e poi ricostituito con un altro decreto.
+                              <lb facs="#art1riga46"/>
+Sebbene il <orgName>Ministro</orgName> sia tenuto a consultarlo in certi
+                              <lb facs="#art1riga47"/>
+casi, continuamente avviene che non lo consulta. Recentemente
+                              <lb facs="#art1riga48"/>
+il <persName>Perez</persName> operava come se il <orgName>Consiglio</orgName> non esistesse,
+                              <lb facs="#art1riga49"/>
+o faceva il contrario di quello che esso gli proponeva, senza
+                              <lb facs="#art1riga50"/>
+neppur dirgliene le ragioni. Che forza può dunque avere
+                              <lb facs="#art1riga51"/>
+il <orgName>Consiglio</orgName>, e dove possono le scuoio trovare qualche stabilità?
+                              <lb facs="#art1riga52"/>
+Non vediamo ogni anno essere mutate le norme, secondo
+                              <lb facs="#art1riga53"/>
+cui si danno gli esami della licenza liceale, senza che se ne
+                              <lb facs="#art1riga54"/>
+sappia il perchè? 0 piuttosto è un perchè che non si osa confessare,
+                              <lb facs="#art1riga55"/>
+cioè il solo desiderio d'essere indulgenti verso i molti
+                              <lb facs="#art1riga56"/>
+che studiano poco e gridano assai, e verso coloro che fanno
+                              <lb facs="#art1riga57"/>
+la speculazione d' istituti privati a buon prezzo.' I rogolamuuti
+                              <lb facs="#art1riga58"/>
+universitari furono tante volte mutati, e sono così
+                              <cb n="2"/>
+
+                              <lb facs="#art1riga59"/>
+intricati, che ogni università li interpreta a suo modo, e si
+                              <lb facs="#art1riga60"/>
+crede di trovar sempre un articolo con cui giustificarsi.
+                              <lb facs="#art1riga61"/>
+La legge <date>13 nov. 1859</date>, che sarebbe la nostra legge fondamentale
+                              <lb facs="#art1riga62"/>
+di pubblica istruzione, è stata tante volte in tanteparti
+                              <lb facs="#art1riga63"/>
+modificata, che non sappiamo se può dirsi più una legge
+                              <lb facs="#art1riga64"/>
+dello Stato. Del sistema universitario che fondava, appena
+                              <lb facs="#art1riga65"/>
+si può dire che resti qualche cosa di sostanziale. Tutto è
+                              <lb facs="#art1riga66"/>
+mutato e spesso mutato in una direzione opposta a quella
+                              <lb facs="#art1riga67"/>
+per cui essa voleva andare. E molto di ciò che non è stato
+                              <lb facs="#art1riga68"/>
+distrutto, non è più osservato da un gran pezzo, e nessuno
+                              <lb facs="#art1riga69"/>
+vi pensa.
+                              <lb facs="#art1riga70"/>
+Noi abbiamo molte volte ricordato, che questa legge
+                              <lb facs="#art1riga71"/>
+vieta agli alunni dei seminari, che non hanno professori con
+                              <lb facs="#art1riga72"/>
+diploma, di presentarsi agli esami di licenza liceale. Se ciò
+                              <lb facs="#art1riga73"/>
+fosse eseguito, la più parte dei seminari dovrebbero chiudersi
+                              <lb facs="#art1riga74"/>
+o restringersi ai corsi teologici. Invece fioriscono,
+                              <lb facs="#art1riga75"/>
+si moltiplicano, fanno concorrenza al governo, che accoglie
+                              <lb facs="#art1riga76"/>
+i loro alunni agli esami in onta alla legge. Ma v'è di peggio
+                              <lb facs="#art1riga77"/>
+ancora.
+                              <lb facs="#art1riga78"/>
+L'art. 106 della legge dice che il <orgName>Ministro</orgName> può sospendere
+                              <lb facs="#art1riga79"/>
+o rimuovere quei professori, i quali coll'insegnamento
+                              <lb facs="#art1riga80"/>
+o cogli scritti hanno impugnato le verità sulle
+                              <lb facs="#art1riga81"/>
+quali riposa l'ordine religioso e morale. Il che vuol dire
+                              <lb facs="#art1riga82"/>
+che se fra noi insegnassero il <persName>Darwin</persName>, lo <persName>Spencer</persName>, il <persName>Mill</persName>
+                              <lb facs="#art1riga83"/>
+ed altri di ugual valore, potrebbero, forse dovrebbero secondo
+                              <lb facs="#art1riga84"/>
+la legge essere destituiti. E senza andare al <persName>Darwin</persName>
+                              <lb facs="#art1riga85"/>
+o al <persName>Mill</persName>, possiamo dire che quasi tutti i nostri migliori
+                              <lb facs="#art1riga86"/>
+insegnanti potrebbero essere destituiti, giacché non sono
+                              <lb facs="#art1riga87"/>
+pochi coloro i quali insegnano dottrine contrarie alla religione
+                              <lb facs="#art1riga88"/>
+che lo <title>Statuto</title> riconosce come religione dello Stato.
+                              <lb facs="#art1riga89"/>
+E vero che il <orgName>Ministro</orgName> non può destituire un professore
+                              <lb facs="#art1riga90"/>
+senza « il parere conforme del <orgName>Consiglio Superiore</orgName>. » Ma
+                              <lb facs="#art1riga91"/>
+noi abbiamo visto che conto esso fa del <orgName>Consiglio</orgName>, e come
+                              <lb facs="#art1riga92"/>
+si crede in diritto anche di modificarlo, quasi di disfarlo con
+                              <lb facs="#art1riga93"/>
+un decreto. E poi, stando alla legge, e se vuol rispettarla, non
+                              <lb facs="#art1riga94"/>
+si trova il <orgName>Consiglio</orgName> stesso molto impacciato ? Finora ha
+                              <lb facs="#art1riga95"/>
+prevalso una interpretazione molto larga, e la libertà d'insegnamento
+                              <lb facs="#art1riga96"/>
+di fatto esiste fra noi nelle scuole dello Stato.
+                              <lb facs="#art1riga97"/>
+Ma quanto alla legge non si può dire che essa esplicitamente
+                              <lb facs="#art1riga98"/>
+riconosca la libertà della scienza e della coscienza nelle
+                              <lb facs="#art1riga99"/>
+scuole. Essa anzi adopera un tale linguaggio, che se un
+                              <lb facs="#art1riga100"/>
+giorno il partito « conservatore » venisse al potere, gli sarebbe
+                              <lb facs="#art1riga101"/>
+facile, quando avesse un <orgName>Consiglio superiore</orgName> fatto a sua
+                              <lb facs="#art1riga102"/>
+immagine, di destituire una buona parte dei professori universitari,
+                              <lb facs="#art1riga103"/>
+e mettere sulla cattedra uomini del suo colore.
+                              <lb facs="#art1riga104"/>
+E quello che è peggio, potrebbe farlo con tutta l'apparenza
+                              <lb facs="#art1riga105"/>
+di rispettare la legge. Non è questo un pericolo ed
+                              <lb facs="#art1riga106"/>
+un grave pericolo per noi?
+                              <lb facs="#art1riga107"/>
+Crediamo perciò che sia necessario mettere una volta
+                              <lb facs="#art1riga108"/>
+qualche ordine nella indigesta farragine delle nostre leggi
+                              <lb facs="#art1riga109"/>
+e regolamenti scolastici, e dare coll'ordine una qualche
+                              <lb facs="#art1riga110"/>
+stabilità alle scuole, senza di che non sarà mai
+                              <lb facs="#art1riga111"/>
+possibile vederle fiorire. Se ogni giorno ai <orgName>Ministri</orgName> è
+                              <lb facs="#art1riga112"/>
+dato mutare i programmi, gli esami, i regolamenti, senza
+                              <lb facs="#art1riga113"/>
+consultare alcuno o consultando solo chi a loro piace ; se
+                              <lb facs="#art1riga114"/>
+nessuna tradizione si può costituire, nessun ordinamento è
+                              <lb facs="#art1riga115"/>
+sicuro di vivere, è certo che non si potrà avere alcun profitto
+                              <lb facs="#art1riga116"/>
+negli alunni, e le autorità scolastiche non avranno mai
+                              <lb facs="#art1riga117"/>
+forza alcuna per far rispettare le leggi, nò potranno formarsi
+                              <lb facs="#art1riga118"/>
+un giudizio sicuro sui resultati che esse danno, giac
+                              <lb break="no" facs="#art1riga119"/>
+chè vengono mutate prima che questi resultati riescano visibili.
+                              <lb facs="#art1riga120"/>
+E se a ciò si aggiunge l'incertezza stessa della leggo
+                              <lb facs="#art1riga121"/>
+in cose di cosi capitalo importanza come è la libertà della
+                              <lb facs="#art1riga122"/>
+scienza e l'indipendenza dell'insegnamento, non parrà troppo
+                              <lb facs="#art1riga123"/>
+il chiedere che s'esca una volta per sempre da tanta confusione,
+                              <lb facs="#art1riga124"/>
+tanti arbitrii o tante illegalità. Queste cose son sempre
+                              <lb facs="#art1riga125"/>
+biasimevoli e pericolose, ma sopra tutto poi, quando ne
+                              <lb facs="#art1riga126"/>
+dà esempio al paese il <orgName>Ministero della pubblica istruzione
+                              <lb facs="#art1riga127"/>
+ed educazione</orgName>.
+
+
+
+                  </ab>
+            </div>
+
+            <!-- ARTICOLO 2-->
+            <div type="article" n="2" xml:lang="it">
+                  <pb n="2" facs="#articolo2" />
+                  <cb n="1"/>
+                  <head rend="uppercase">
+                        <lb facs="#art2titolo"/>
+La economia nella spesa
+per l'acquisto delle vettovaglie
+                  </head>
+                  <ab>
+                        <lb facs="#art2riga1"/>
+La <orgName>Consociazione operaia fra le società di mutuo soccorso
+                        <lb facs="#art2riga2"/>
+di Roma</orgName> ha immaginato un ingegnoso mezzo per
+                  <lb facs="#art2riga3"/>
+costituire agli operai un fondo di risparmio. Ila prescelto
+                  <lb facs="#art2riga4"/>
+nei vari rioni della città alcuni reputati bottegai, ai quali
+                  <lb facs="#art2riga5"/>
+ha assicurato la numerosa clientela di parecchio centurie
+                  <lb facs="#art2riga6"/>
+di lavoranti che rappresentano famiglie non agiate. Essi
+                  <lb facs="#art2riga7"/>
+acquistano a pronti contanti in quei negozi i generi alimentari
+                  <lb facs="#art2riga8"/>
+, e ricevono per ogni spesa fatta una bolletta
+                  <lb facs="#art2riga9"/>
+che ne indica l'ammontare. Ogni fin di mese le bollette si
+                  <lb facs="#art2riga10"/>
+raccolgono dalle singole società consociate, le quali le consegnano
+                  <lb facs="#art2riga11"/>
+a un <orgName>Consiglio amministrativo delle forniture</orgName>, che
+                  <lb facs="#art2riga12"/>
+riscuote dagli esercenti lo sconto, pattuito con regolare contratto,
+                  <lb facs="#art2riga13"/>
+di lire cinque sopra ogni cento lire di vendita. Le
+                  <lb facs="#art2riga14"/>
+somme raccolte vengono mano mano messe a frutto a beneficio
+                  <lb facs="#art2riga15"/>
+di coloro ai quali spettano a fino di costituire una
+                  <lb facs="#art2riga16"/>
+                  <orgName>Banca mutua operaia</orgName>, della quale tutti i soci diverranno
+                  <lb facs="#art2riga17"/>
+azionisti col diritto a una azione per ogni venti lire guadagnate
+                  <lb facs="#art2riga18"/>
+dalle forniture alimentari. Il credito, come succede
+                  <lb facs="#art2riga19"/>
+nelle <orgName>Banche mutue</orgName>, sarà fatto in ragione delle azioni cumulate
+                  <lb facs="#art2riga20"/>
+e di altre garanzie.
+                  <lb facs="#art2riga21"/>
+Il disegno, come si vede, associa la semplicità all'originalità,
+                  <lb facs="#art2riga22"/>
+quantunque le difficoltà non manchino alla perfetta
+                  <lb facs="#art2riga23"/>
+esecuzione. Gli operai di <placeName>Roma</placeName> non hanno voluto seguire
+                  <lb facs="#art2riga24"/>
+l'esempio di quelli d'<placeName>Inghilterra</placeName>, costituendosi in modo indipendente
+                  <lb facs="#art2riga25"/>
+i loro magazzini cooperativi. Forse hanno temuto
+                  <lb facs="#art2riga26"/>
+le grandi difficoltà tecniche che si oppongono alla
+                  <lb facs="#art2riga27"/>
+riuscita di questo imprese e che si sperimentarono anche
+                  <lb facs="#art2riga28"/>
+in altre parti d'<placeName>Italia</placeName>. E invero sono molteplici, sia per la
+                  <lb facs="#art2riga29"/>
+scelta'del personale amministrativo e dirigente, sia pel
+                  <lb facs="#art2riga30"/>
+riscontro degli acquisti e delle vendite, sia per la contabilità.
+                  <lb facs="#art2riga31"/>
+Bisogna sostituire l'oculato interesse personale del bottegàio
+                  <lb facs="#art2riga32"/>
+col vincolo della comunione cooperativa; e ciò ò
+                  <lb facs="#art2riga33"/>
+più facile a dirsi nel calore di una conferenza che a porsi
+                  <lb facs="#art2riga34"/>
+ad effetto freddamente.
+                  <lb facs="#art2riga35"/>
+Gli operai di <placeName>Roma</placeName> si sono liberati da tali impacci, e
+                  <lb facs="#art2riga36"/>
+non possiamo censurarli considerando l' indole dei tempi e
+                  <lb facs="#art2riga37"/>
+dei costumi. Ma devono vigilare che le agevolezze promesse
+                  <lb facs="#art2riga38"/>
+dai bottegai sieno reali o non immaginarie, e che essi non
+                  <lb facs="#art2riga39"/>
+cerchino, nel difetto di peso o di bontà delle cose vendute
+                  <lb facs="#art2riga40"/>
+un risarcimento dello sconto promesso.
+                  <lb facs="#art2riga41"/>
+A tale uopo la <orgName>Commissione</orgName> si propone di vigilare quei
+                  <lb facs="#art2riga42"/>
+negozi con propri ispettori e ove si avvedano di qualche
+                  <lb facs="#art2riga43"/>
+guaio ammonire i bottegai e poi pubblicamente disdirli.
+                  <lb facs="#art2riga44"/>
+Questa specie di pubblica accusa li dovrebbe trattenere dall'inganno
+                  <lb facs="#art2riga45"/>
+e dalla frode; e dall'altro canto la sicurezza di una
+                  <lb facs="#art2riga46"/>
+clientela numerosa e permanente li dovrebbe allettare a
+                  <lb facs="#art2riga47"/>
+vender fior di roba a peso esatto. Tale ò la speranza, teoreticamente
+                  <lb facs="#art2riga48"/>
+sana; ma gioverà attendere i risultati dell'esperienza,
+                  <lb facs="#art2riga49"/>
+decisivi in queste materie. Tanto più che nel loro
+                  <lb facs="#art2riga50"/>
+zelo pel pubblico bene i preposti allo associazioni operaie
+                  <lb facs="#art2riga51"/>
+romano non danno grande importanza a'un fatto patologico
+                  <lb facs="#art2riga52"/>
+di rilievo. Gli operai difficilmente s'indurranno ad abbandonare
+                  <lb facs="#art2riga53"/>
+la loro bottega per recarsi a quella additata e
+                  <lb facs="#art2riga54"/>
+prescelta dall'associazione; parte per abitudine, parto per
+                  <lb facs="#art2riga55"/>
+comodità o parie ancora per filò fanno assegnamento sul
+                  <cb n="2"/>
+                  <lb facs="#art2riga56"/>
+credito, il quale col nuovo metodo sarebbe tolto. Sicuramente
+                  <lb facs="#art2riga57"/>
+l'uso di pagar a contanti è salutare; genera la previdenza,
+                  <lb facs="#art2riga58"/>
+salva dall'usura dello vettovaglie, enorme più
+                  <lb facs="#art2riga59"/>
+di quella elio si paga dalla povera gente sul denaro. Un
+                  <lb facs="#art2riga60"/>
+operaio che con atto di previdente energia si sottrae agli
+                  <lb facs="#art2riga61"/>
+allettamenti di questo pessimo credito di consumo, e si avvezza
+                  <lb facs="#art2riga62"/>
+a pagar a contante, si redime.
+                  <lb facs="#art2riga63"/>
+In tutto ciò siamo in perfetto accordo coll'associazione
+                  <lb facs="#art2riga64"/>
+degli operai romani ; ma dubitiamo che i battaglioni degli
+                  <lb facs="#art2riga65"/>
+operai seguano questa sana tendenza, o temiamo forte che
+                  <lb facs="#art2riga66"/>
+soltanto pattuglie di scelta gente laboriosa accorreranno alle
+                  <lb facs="#art2riga67"/>
+botteghe preferite. Nel qual caso mancherebbe di quella
+                  <lb facs="#art2riga68"/>
+concorrenza dei grandi numeri, sulla quale riposano l'effetto
+                  <lb facs="#art2riga69"/>
+e l'efficacia della operazione ideata. Ingomma le due
+                  <lb facs="#art2riga70"/>
+grandi difficoltà sono che i bottegai intendano il loro interesse
+                  <lb facs="#art2riga71"/>
+e che lo intendano gli operai accorrendo e.pagando
+                  <lb facs="#art2riga72"/>
+a contanti. Se si evitano questi due scogli, i risultati saranno
+                  <lb facs="#art2riga73"/>
+notevoli; imperocché con savio avvedimento non si
+                  <lb facs="#art2riga74"/>
+sperpera il risparmio conseguito coll'acquisto delle vettovaglie,
+                  <lb facs="#art2riga75"/>
+ma lo si tiene in serbo per la costituzione della <orgName>Banca
+                  <lb facs="#art2riga76"/>
+mutua popolare</orgName>. La quale in pochi anni può divenire un
+            <lb facs="#art2riga77"/>
+centro potente di credito e di attrazione di capitale. La
+            <lb facs="#art2riga78"/>
+classe operaia può anche preferirla, per la fruttificazione
+            <lb facs="#art2riga79"/>
+delle sue economie, alla <orgName>Cassa di risparmio</orgName>, e amministrata
+            <lb facs="#art2riga80"/>
+dagli stessi preposti alle società operaie conserverebbe quella
+            <lb facs="#art2riga81"/>
+fisionomia essenzialmente popolare, nella quale starebbero
+            <lb facs="#art2riga82"/>
+il suo decoro e la sua forza.
+            <lb facs="#art2riga83"/>
+Cosi mangiando beno e al coperto dalle frodi di peso e di
+            <lb facs="#art2riga84"/>
+sofisticazioni, un onesto operaio capitalizzerebbe il fondo
+            <lb facs="#art2riga85"/>
+per assicurarsi il credito, di cui è assolutamente privo oggidì.
+            <lb facs="#art2riga86"/>
+Si realizzerebbe il sogno della economia nella spesa; e se,
+            <lb facs="#art2riga87"/>
+corno si deve sperare, non senza la preoccupazione che possaanche
+            <lb facs="#art2riga88"/>
+avvenire il contrario, accorressero a migliaia gli
+            <lb facs="#art2riga89"/>
+operai romani ai negozi indicati, in pochi anni si potrebbe
+            <lb facs="#art2riga90"/>
+formare una <orgName>Banca</orgName> di parecchie centinaia di migliaia di
+            <lb facs="#art2riga91"/>
+lire. E un sogno dorato oggidì ; ma nulla vieta che divenga
+            <lb facs="#art2riga92"/>
+una realtà, se aiuteranno la previdenza e la buona fede.
+      </ab>
+
+</div>
+
+
+<!-- BIBLIOGRAFIA 1-->
+<div type="article" n="1" xml:lang="it">
+      <pb n="1" facs="#bibliografia1" />
+      <cb n="1"/>
+      <head rend="uppercase">
+
+            <lb facs="#bibl1titolo"/>
+Educazione
+      </head>
+      <head>
+Domenico Caprile, Virtù educatrice, studi morali, 3a edizione,
+Genova, 1880.
+      </head>
+      <ab>
+            <lb facs="#bibl1riga1"/>
+Non mai quant'oggi è sentito il bisogno di buoni libri
+            <lb facs="#bibl1riga2"/>
+d'educazione; e frattanto vien fuori la <date>3a edizione</date> degli
+            <lb facs="#bibl1riga3"/>
+            <title>Studi morali</title> del <persName>Caprile</persName>. A sapere solo che è una <date>3a edizione</date>
+            <lb facs="#bibl1riga4"/>
+il lettore è invogliato a leggere il libro. Ma in verità
+            <lb facs="#bibl1riga5"/>
+il lettore resta deluso ad ogni pagina. Il libro è composto
+            <lb facs="#bibl1riga6"/>
+di un numero di pensieri tra buoni e cattivi, ma
+            <lb facs="#bibl1riga7"/>
+senz'ordine, benché ve ne sia l'apparenza ; i pensieri sono
+            <lb facs="#bibl1riga8"/>
+rivestiti di espressioni spesso sicure, perchè sono dominatiz<lb break="no" />
+zanti
+      <lb facs="#bibl1riga9"/>
+; spesso vacuo ed incoerenti, quando han l'aria di
+      <lb facs="#bibl1riga10"/>
+essere dimostrazioni.
+      <lb facs="#bibl1riga11"/>
+L'A. vuol sin dal principio stabilire il fine dell' educazione,
+      <lb facs="#bibl1riga12"/>
+ma viene a queste espressioni: <quote>«La conoscenza del
+      <lb facs="#bibl1riga13"/>
+      <persName>Creatore</persName>, la coltura della mente, l' educazione del cuore,
+      <lb facs="#bibl1riga14"/>
+sono il fine del morale perfezionamento della donna. Ogni
+      <lb facs="#bibl1riga15"/>
+e qualsivoglia metodo di educazione che a questo fine non
+      <lb facs="#bibl1riga16"/>
+sia volto, è imperfetto e fallace (pag. 14). »</quote> Forse l'A. voleva
+<lb facs="#bibl1riga17"/>
+dire che l'educazione morale si può compiere per mezzo
+<lb facs="#bibl1riga18"/>
+della conoscenza del <persName>Creatore</persName> ecc. Volete poi sapere perchè
+<lb facs="#bibl1riga19"/>
+la donna deve educarsi? <quote>«chè di essere educato ha
+<lb facs="#bibl1riga20"/>
+bisogno il suo cuore (pag. 16). »</quote> — Sapete qual è il mezzo
+<lb facs="#bibl1riga21"/>
+principale col quale la madre possa adempiere il suo mandato
+<lb facs="#bibl1riga22"/>
+di educare la propria figliuola? Eccovelo: <quote>« Allontanate
+<lb facs="#bibl1riga23"/>
+l'anima dalle cose umane, raccoglietevi nella pace
+<lb facs="#bibl1riga24"/>
+della vostra casa, nel devoto silenzio a' piò dell' altare dinanzi
+<lb facs="#bibl1riga25"/>
+a cui splende solitaria la lampada della fede ; invocate
+<lb facs="#bibl1riga26"/>
+<persName>Iddio</persName>,<rs type="epithet">Padre degli uomini</rs> è<rs type="epithet">amico dei pargoli</rs>, perché
+<lb facs="#bibl1riga27"/>
+v'illumini nell'augusto ministero di madre, e lo spirito di
+<lb facs="#bibl1riga28"/>
+<persName>Dio</persName> scenderà' su di voi invocato (pag. 28). »</quote> — Così per
+<lb facs="#bibl1riga29"/>
+divina ispirazione la madre conoscerà le leggi psicologiche
+<lb facs="#bibl1riga30"/>
+che presiedono al sistema di educazione! E questo metodo
+<lb facs="#bibl1riga31"/>
+è tanto più importante, che <quote>« le generazioni che ora compiono
+<lb facs="#bibl1riga32"/>
+il loro pellegrinaggio sulla tèrra, hanno perduta gran
+<lb facs="#bibl1riga33"/>
+parte dell'antica fede salda e vigorosa.... Quasi figliuoli diseredati
+<lb facs="#bibl1riga34"/>
+o quasi primi abitatori di deserta contrada, ci
+<lb facs="#bibl1riga35"/>
+siamo persuasi di dover tutto innovare, edificare tutto, e
+<lb facs="#bibl1riga36"/>
+siamo venuti meno nella troppo grande opera, poiché senza
+<lb facs="#bibl1riga37"/>
+fede non si crea (pag. 38)</quote> perché <quote>« coloro i quali si
+<lb facs="#bibl1riga38"/>
+appressano a voi o col sorriso schernitore sul labbro, colla
+<lb facs="#bibl1riga39"/>
+petulanza del saccente, col volto composto ad affetto bugiardo
+<lb facs="#bibl1riga40"/>
+insultano la vostra fede, e vorrebbero farvi vergognare
+<lb facs="#bibl1riga41"/>
+e dimenticare della religione di vostra madre »</quote> —
+<lb facs="#bibl1riga42"/>
+<quote>« il miscredente è peggiore a mille doppi del brutale, perchè
+<lb facs="#bibl1riga43"/>
+circuisce e contamina, a guisa di rettile, colla bava fetente
+<lb facs="#bibl1riga44"/>
+e velenosa la sua preda, per profanare e trarre a morto,
+<lb facs="#bibl1riga45"/>
+o trafficare le anime e i corpi (pag. 52)»</quote>;<quote>«perchè materia
+<lb facs="#bibl1riga46"/>
+e fango sono le nostre membra (pag. 93), »</quote> e così via....
+<lb facs="#bibl1riga47"/>
+Importante sarebbe a dire come si dçbba educare la
+<lb facs="#bibl1riga48"/>
+volontà, e l'A. spende tre capitoli su ciò. Ma non troviamo
+<lb facs="#bibl1riga49"/>
+il bandolo per riassumerne i concetti principali, perchè
+<lb facs="#bibl1riga50"/>
+sono frasi scucite. Il concetto principale certamente è sempre
+<lb facs="#bibl1riga51"/>
+uno, che la volontà è dono di <persName>Dio</persName>, come la libertà (sic), che
+<lb facs="#bibl1riga52"/>
+bisogna educare a disprezzare le cose terrene o materiali.
+<lb facs="#bibl1riga53"/>
+Se l'A. avesse pensato di educare le figlie di <persName>S. Teresa</persName>,
+<lb facs="#bibl1riga54"/>
+forse il suo libro avrebbe qualche valore; ma per educare la
+<lb facs="#bibl1riga55"/>
+donna della vita attiva, sposa e madre, ci vogliono altri
+<lb facs="#bibl1riga56"/>
+metodi ed altri mezzi che quelli indicati da lui. Questi suoi
+<lb facs="#bibl1riga57"/>
+mezzi e questi suoi metodi si riducono a superficiali ripetizioni
+<lb facs="#bibl1riga58"/>
+di ciò che una donna suole sentire o dal suo confessore
+<lb facs="#bibl1riga59"/>
+o dal parroco. Vi ha la negazione assoluta del mondo
+<lb facs="#bibl1riga60"/>
+moderno insieme ad una ignoranza totale di cognizioni psicologiche,
+<lb facs="#bibl1riga61"/>
+non dicciamo di leggi, che sono il cardine del
+<lb facs="#bibl1riga62"/>
+sistema scientifico d'educazione.
+</ab>
+</div>
+
+
+<!-- BIBLIOGRAFIA 2-->
+<div type="article" n="2" xml:lang="it">
+<pb n="2" facs="#bibliografia2" />
+<cb n="1"/>
+<head rend="uppercase">
+<lb facs="#bibl2titolo"/>
+Archeologia
+</head>
+<head>
+      Cesare Quarenghi, Le Mura di Roma con una pianta direttiva
+alle cinte serviana cd aureliana ed alla città leonina.
+— Roma, Ermanno Loescher e C.°, 1880.
+</head>
+<ab>
+<lb facs="#bibl2_riga1"/>
+Le <seg type="theme">mura di <placeName>Roma</placeName>
+</seg> sono un soggetto che richiede una
+<lb facs="#bibl2_riga2"/>
+grande erudizione in chi intenda studiarlo a fondo : sono
+<lb facs="#bibl2_riga3"/>
+indispensabili soprattutto cognizioni archeologiche, artistiche,
+<lb facs="#bibl2_riga4"/>
+storiche, locali assai vaste. Molti trattarono delle medesime;
+<lb facs="#bibl2_riga5"/>
+ma forse nessuno pensò come il sig. <persName>Quarenghi</persName> di
+<lb facs="#bibl2_riga6"/>
+farne un volumetto, che, raccogliendo gli articoli da lui pubbli<lb break="no" />
+cati
+<lb facs="#bibl2_riga7"/>
+nell'
+<orgName type="publisher">Italia Militare</orgName>, potesse in certo modo servire di
+<lb facs="#bibl2_riga8"/>
+guida a chi volesse far il giro dell'<rs type="epithet">alma città</rs> per visitare
+<lb facs="#bibl2_riga9"/>
+le sue vetuste mura del perimetro di 25 chilometri.
+<lb facs="#bibl2_riga10"/>
+Quantunque il lavoro possa dirsi, in massima parte, di
+<lb facs="#bibl2_riga11"/>
+compilazione, ciò non ostante brillano qua e là notizie curioso
+<lb facs="#bibl2_riga12"/>
+e piccoli documenti inediti, da rendere evidente che
+<lb facs="#bibl2_riga13"/>
+l'A. ha fatto anche delle particolari ricerche storiche negli
+<lb facs="#bibl2_riga14"/>
+archivi, come ad esempio intorno alla fortificazione del
+<lb facs="#bibl2_riga15"/>
+<placeName>Borgo</placeName> nel <date>secolo XVI</date> e dello Mura ai tempi di <persName>Urbano VIII</persName>.
+<lb facs="#bibl2_riga16"/>
+Importanti e nuove sono poi le sue definizioni intorno ai
+<lb facs="#bibl2_riga17"/>
+limiti della così detta <placeName>città Leonina</placeName>.
+<lb facs="#bibl2_riga18"/>
+In quanto a fonti edite, il sig. <persName>Quarenghi</persName> dimostra di cono<lb break="no" />
+scerle
+<lb facs="#bibl2_riga19"/>
+bene, tanto le antiche quanto le moderne, e pesca
+<lb facs="#bibl2_riga20"/>
+anche in memorie accademiche e di riviste, le quali facilmente
+<lb facs="#bibl2_riga21"/>
+sfuggono ai ricercatori. Non accetta però ciecamente
+<lb facs="#bibl2_riga22"/>
+le opinioni altrui, anzi talvolta le discute e si appiglia alla
+<lb facs="#bibl2_riga23"/>
+migliore e tal altra vi sostituisce la propria modestamente.
+<lb facs="#bibl2_riga24"/>
+Il <persName>Nibby</persName>, egli nota, ritiene che invece della porta detta
+<lb facs="#bibl2_riga25"/>
+<term>Fontinale</term> vi fosse la <term>Catularia</term>; il sig. <persName>Lanciani</persName> opina che la
+<lb facs="#bibl2_riga26"/>
+<term>Fontinale</term> fosse in <placeName>Piazza di Magnanapoli</placeName> ; il prof. <persName>Gori</persName> la
+<lb facs="#bibl2_riga27"/>
+pone al <placeName>palazzo Antonelli</placeName>. Il <persName>Quarenghi</persName> nega l'esistenza della
+<lb facs="#bibl2_riga28"/>
+<term>Catularia</term>, qualifica per ardita l'opinione del secondo ed inclina
+<lb facs="#bibl2_riga29"/>
+all'asserto dell'ultimo, dandone ragioni.
+<lb facs="#bibl2_riga30"/>
+Il <persName>Quarenghi</persName> è<roleName>officiale addetto allo stato maggiore</roleName>; e
+<lb facs="#bibl2_riga31"/>
+perciò coglie le occasioni per discorrere dei passati assedii
+<lb facs="#bibl2_riga32"/>
+e dei futuri.
+<lb facs="#bibl2_riga33"/>
+Ne sia un piccolo saggio questo suo periodo. <quote>« I tecnici
+<lb facs="#bibl2_riga34"/>
+dicono che le mura del Saliente, benché alte e forti,
+<lb facs="#bibl2_riga35"/>
+sono dominate dalle alture presso <placeName>Papa Giulio</placeName> e non permettono
+<lb facs="#bibl2_riga36"/>
+di battere il terreno esterno in causa degl' interposti
+<lb facs="#bibl2_riga37"/>
+fabbricati. In caso di guerra o di assedio, ò certo
+<lb facs="#bibl2_riga38"/>
+che quei fabbricati dovrebbero essere rasi a terra ed allora
+<lb facs="#bibl2_riga39"/>
+il Saliente del <placeName>Pincio</placeName> avrebbe campo vastissimo dinanzi a
+<lb facs="#bibl2_riga40"/>
+se per tener a bada qualunque nemico. »</quote> Egli dà un qualche
+<lb facs="#bibl2_riga41"/>
+cenno sulla difesa di <placeName>Roma</placeName> nel <date>1849</date> e sulla breccia di
+<lb facs="#bibl2_riga42"/>
+<placeName>Porta Pia</placeName>; solamente ci pare ch'egli si preoccupi senza neces<lb break="no" />
+sità
+<lb facs="#bibl2_riga43"/>
+di certi pettegolezzi giornalistici. Poteva bastargli di
+<lb facs="#bibl2_riga44"/>
+riprodurre l'iscrizione posta nel <date>1871</date> dal <orgName>Municipio romano</orgName>
+<lb facs="#bibl2_riga45"/>
+per ricordar l'entrata dell'esercito italiano in <placeName>Roma</placeName> senza dar
+<lb facs="#bibl2_riga46"/>
+posto a quella proposta ironicamente da un giornale pretino.
+<lb facs="#bibl2_riga47"/>
+Il <persName>Quarenghi</persName> è un allegro compagno nella visita delle
+<lb facs="#bibl2_riga48"/>
+mura ; poiché di tanto in tanto ci dice una parola gaia ;
+<lb facs="#bibl2_riga49"/>
+ma talvolta ci pare un po' leggero. Nella costruzione della
+<lb facs="#bibl2_riga50"/>
+<placeName>Porta Pia</placeName> disegnata dal <persName>Buonarroti</persName> riporta alcuni pagamenti
+<lb facs="#bibl2_riga51"/>
+fra cui il seguente : <quote>« Et a dì <date>24 luglio 1565</date> scudi 6
+<lb facs="#bibl2_riga52"/>
+a mastro <persName>Girolamo Valperga</persName> per ricognoscimeuto de sue"'
+<lb facs="#bibl2_riga53"/>
+fatiche.»</quote> Qui apre una parentesi esclamando: <quote>«¡ Quanta gene<lb break="no" />
+rosità!</quote>
+<lb facs="#bibl2_riga54"/>
+ » Per fare tale osservazione era necessario conoscere
+<lb facs="#bibl2_riga55"/>
+le fatiche impiegate dal <persName>Valperga</persName>, le quali dal pagamento
+<lb facs="#bibl2_riga56"/>
+non risultano.
+<lb facs="#bibl2_riga57"/>
+Qualche erroruccio archeologico e qualcuno di stampa si
+<lb facs="#bibl2_riga58"/>
+potrebbero ancora indicare; ma comunque questo libro sarà
+<lb facs="#bibl2_riga59"/>
+sempre se non altro una guida storica geniale per chi
+<lb facs="#bibl2_riga60"/>
+intendesse fare gite attorno alle mura di <placeName>Roma</placeName>.
+
+</ab>
+</div>
+
+
+<!-- NOTIZIA 1-->
+<div type="article" n="2" xml:lang="it">
+<pb n="1" facs="#notizie" />
+<cb n="1"/>
+<head>
+I. - Periodici Inglesi.
+</head>
+<ab>
+<lb facs="#notizia1riga1"/>
+<title>The Academy</title> (<date>3 gennaio</date>).<persName>François Lonormant</persName> dà un breve sommario
+<lb facs="#notizia1riga2"/>
+di osservazioni archeologiche da lui fatto in <placeName>Puglia</placeName>, sperando di
+<lb facs="#notizia1riga3"/>
+estenderle e compierle in una futura esplorazione.
+<lb facs="#notizia1riga4"/>
+<title>The Athenaeum</title> (<date>3 gennaio</date>). Prendendo occasione della traduzione
+<lb facs="#notizia1riga5"/>
+inglese di: <title>Venezia</title>, di <persName>C. Yriarte</persName> ripete le lodi fatte a quest'opera.
+<lb facs="#notizia1riga6"/>
+Il capitolo sulla scultura veneziana specialmente è giudicato un <rs type="epithet">epitome
+<lb facs="#notizia1riga7"/>
+ammirabile</rs> di questo soggetto.
+<lb facs="#notizia1riga8"/>
+— Rende conto di una raccolta di saggi pubblicati sotto il titolo
+<lb facs="#notizia1riga9"/>
+di <title>Musurgiana</title>, dal <roleName>conte</roleName>
+<persName>L. F. Valdrighi</persName>. Uno di questi saggi tratta
+<lb facs="#notizia1riga10"/>
+di una scoperta fatta dall'autore negli <orgName>Archivi di Stato</orgName> a <placeName>Modena</placeName>, di
+<lb facs="#notizia1riga11"/>
+due lettere del <date>1598</date> scritte da un certo <persName>Paliarino</persName>, fabbricatore di <term>instrumenti</term>
+<lb facs="#notizia1riga12"/>
+di <persName>Alfonso II</persName> di <placeName>Modena</placeName>. In esse si menziona uno strumento
+<lb facs="#notizia1riga13"/>
+chiamato <quote>
+<foreign xml:lang="eng">piano e forte</foreign>
+</quote>, il quale sembra che sia stato una varietà
+<lb facs="#notizia1riga14"/>
+migliorata del clavicembalo e si prova in ogni modo che già molto
+<lb facs="#notizia1riga15"/>
+prima del <persName>Cristofori</persName> che è creduto l'inventore del pianoforte (nel <date>1711</date>)
+<lb facs="#notizia1riga16"/>
+abbia esistito uno istrumento di quel nome.
+</ab>
+</div>
+
+<!-- NOTIZIA 2-->
+<div type="article" n="2" xml:lang="it">
+<pb n="2" facs="#notizie" />
+<cb n="1"/>
+<head>
+II. - Periodici Francesi e Belgi.
+</head>
+<ab>
+<lb facs="#notizia2riga1"/>
+<orgName type="publisher">L'Athemeum belge</orgName> (<date>1 gennaio</date>)<persName>Émile de Laveleye</persName> loda il <title>libro di
+<lb facs="#notizia2riga2"/>
+<persName>Achille Loria</persName>: La rendita fondiaria e la sua elisi<lb break="no"/>
+one naturale</title>.
+<lb facs="#notizia2riga3"/>
+<orgName type="publisher">La Nature</orgName> (<date>3 gennaio</date>). Altro articolo di <persName>Gaston Tissandier</persName> sul prosciugamento
+<lb facs="#notizia2riga4"/>
+del <geogName>lago di Fucino</geogName> che giudica un'opera di grande utilità
+<lb facs="#notizia2riga5"/>
+e importanza. Le informazioni dell'autore sono prese per la più parte
+<lb facs="#notizia2riga6"/>
+da uno studio di <persName>A. Brisse</persName> e <persName>L. de Rotron</persName> intitolato : <title>
+<foreign xml:lang="fr">Le dessèchement
+<lb facs="#notizia2riga7"/>
+du lac Fucino</foreign>
+</title> par le <roleName>prince</roleName>
+<persName>Alexandre Torlonia</persName>.
+<lb facs="#notizia2riga8"/>
+<orgName type="publisher">La Nouvelle Revue</orgName> (<date>1 gennaio</date>).<persName>Mauro Macchi</persName> tratta la quistione
+<lb facs="#notizia2riga9"/>
+del lotto in <placeName>Italia</placeName> e si pronunzia per l'abolizione di esso invocando
+<lb facs="#notizia2riga10"/>
+ragioni di moralità e di <term>economia</term>.
+</ab>
+</div>
+
+
+
+
+
+</div>
+</body>
+
+<back>
+
+</back>
+</text>
+</TEI>
